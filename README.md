@@ -19,3 +19,9 @@ cpack
 ```
 choco install Noto -fdvy -s '%cd%'
 ```
+
+# Publish
+
+```
+choco push Noto.0.20150929.nupkg -s https://chocolatey.org/
+```
