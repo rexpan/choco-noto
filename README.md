@@ -1,6 +1,8 @@
 # choco-noto
 
-[Chocolatey](https://chocolatey.org/) [package](https://chocolatey.org/packages/Noto) for [Google Noto Fonts](https://www.google.com/get/noto/).
+[Chocolatey](https://chocolatey.org/) [package](https://chocolatey.org/packages/Noto)
+for [Google Noto Fonts](https://www.google.com/get/noto/)
+((updates)[https://www.google.com/get/noto/updates/]).
 
 # Install
 
@@ -23,5 +25,5 @@ choco install Noto -fdvy -s '%cd%'
 # Publish
 
 ```
-choco push Noto.0.20150929.nupkg -s https://chocolatey.org/
+choco push -s https://chocolatey.org/
 ```

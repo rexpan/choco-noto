@@ -9,7 +9,7 @@ $fontHelpersPath = (Join-Path (Get-CurrentDirectory) 'FontHelpers.ps1')
 
 $fontUrl = 'https://noto-website.storage.googleapis.com/pkgs/Noto-hinted.zip'
 $checksumType = 'sha256';
-$checksum = '9FF8BFA1B58B0AD66E527A99F9E013B00B30EB2C494482B1CB8922C982DCB3BB';
+$checksum = 'D5E5BACE69570F348228E864444155657C1E7ECA50857B9DE4981FBD9B5122DD';
 
 $destination = Join-Path $Env:Temp 'NotoFonts'
 
