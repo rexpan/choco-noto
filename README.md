@@ -25,5 +25,5 @@ choco install Noto -fdvy -s '%cd%'
 # Publish
 
 ```
-choco push -s https://chocolatey.org/
+choco push --source https://push.chocolatey.org/
 ```

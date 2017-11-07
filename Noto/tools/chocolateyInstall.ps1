@@ -7,9 +7,9 @@ function Get-CurrentDirectory
 $fontHelpersPath = (Join-Path (Get-CurrentDirectory) 'FontHelpers.ps1')
 . $fontHelpersPath
 
-$fontUrl = 'https://noto-website.storage.googleapis.com/pkgs/Noto-hinted.zip'
+$fontUrl = 'https://noto-website-2.storage.googleapis.com/pkgs/Noto-hinted.zip'
 $checksumType = 'sha256';
-$checksum = 'D5E5BACE69570F348228E864444155657C1E7ECA50857B9DE4981FBD9B5122DD';
+$checksum = '837B4A9352FCE32AD7F298FBF155AF1DA5B6F3F8DBD995EB63FDD8E82117E4AE';
 
 $destination = Join-Path $Env:Temp 'NotoFonts'
 
